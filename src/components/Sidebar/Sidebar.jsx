@@ -17,7 +17,7 @@ export default function Sidebar() {
 
                     <div className="info-content">
                         <a href="index.html">
-                            <h1 style={{ marginLeft: "80px", marginTop: "7.5px" }} id="age" className="name" title="Ido Roth">Ido Roth</h1>
+                            <h1 style={{ marginLeft: "65px", marginTop: "7.5px" }} id="age" className="name" title="Ido Roth">Ido Roth</h1>
                         </a>
 
                         <p style={{ marginLeft: "45px" }} className="title">Full Stack Developer</p>
