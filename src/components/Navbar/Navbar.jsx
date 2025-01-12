@@ -14,6 +14,8 @@
 
 // export default Navbar;
 
+import './Navbar.css';
+
 const Navbar = ({ onNavigate }) => {
     return (
         <main> <nav className="navbar">

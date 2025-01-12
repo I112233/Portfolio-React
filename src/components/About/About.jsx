@@ -1,4 +1,4 @@
-// About Page Component
+import './About.css';
 const About = () => {
     return (
         <main>
@@ -8,15 +8,18 @@ const About = () => {
                 </header>
 
                 <section className="about-text">
-                    <p>I am a Full Stack developer from Lod, Israel.</p>
+                    <p style={{
+                        fontSize: "15.8px"
+                    }}>I am a Full Stack developer from Lod, Israel.</p>
 
                     <p style={{
-                        textAlign: "justify", textJustify: "inter-word", width: "900px"
+                        textAlign: "justify", textJustify: "inter-word", width: "900px",
+                        fontSize: "15.8px"
                     }}>
                         My job is to build your website so that it is functional,
-                        user-friendly and attractive at the same time. Furthermore, I add
+                        user-friendly and attractive at the same time. <br /> Furthermore, I add
                         personal touch to your website and make sure that it is
-                        eye-catching and easy to use. My aim is to bring across your
+                        eye-catching and easy to use.  <br /> My aim is to bring across your
                         message and identity in the most creative way.
                     </p>
                 </section>
@@ -90,7 +93,7 @@ const About = () => {
                                 <div className="testimonials-text" data-testimonials-text>
                                     <p>
                                         Ido developed a memory card game for my daughter.
-                                        She likes it very much! And the fireworks when she wins as well.
+                                        She likes it very much! And the fireworks too!
                                     </p>
                                 </div>
                             </div>
@@ -200,7 +203,7 @@ const About = () => {
                             <img src="src/assets/images/icon-quote.svg" alt="quote icon" />
                         </div>
 
-                        <div className="modal-content">
+                        {/* <div className="modal-content">
                             <h4 className="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
                             <time dateTime="2021-06-14">14 June, 2021</time>
@@ -215,7 +218,7 @@ const About = () => {
                                     dolore magnarels alia.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </section>
                 </div>
 

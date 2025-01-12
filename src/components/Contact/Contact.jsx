@@ -1,3 +1,5 @@
+
+import './Contact.css'
 // Contact Page Component
 const Contact = () => {
     return (

@@ -3,6 +3,7 @@ import React from 'react'
 // import chevron-down from 'ionicons/icons';
 import 'ionicons';
 import './script.js';
+import './Sidebar.css';
 
 export default function Sidebar() {
     return (
@@ -10,23 +11,23 @@ export default function Sidebar() {
             <aside className="sidebar" data-sidebar>
                 <div className="sidebar-info">
 
-                    <figure className="avatar-box">
+                    <figure style={{ marginLeft: "75px" }} className="avatar-box">
                         <img src="src/assets/images/my-avatar.png" alt="Ido Roth" width="80" />
                     </figure>
 
                     <div className="info-content">
                         <a href="index.html">
-                            <h1 id="age" className="name" title="Ido Roth"></h1>
+                            <h1 style={{ marginLeft: "80px", marginTop: "7.5px" }} id="age" className="name" title="Ido Roth">Ido Roth</h1>
                         </a>
 
-                        <p className="title">Full Stack Developer</p>
+                        <p style={{ marginLeft: "45px" }} className="title">Full Stack Developer</p>
                     </div>
 
-                    <button className="info_more-btn" data-sidebar-btn>
+                    {/* <button className="info_more-btn" data-sidebar-btn>
                         <span>Show Contacts</span>
 
                         <ion-icon name="chevron-down"></ion-icon>
-                    </button>
+                    </button> */}
                 </div>
 
                 <div className="sidebar-info_more">

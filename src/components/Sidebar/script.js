@@ -18,7 +18,7 @@ function calculateExactAge(birthDate) {
 function showExactAge() {
   const birthDate = "2002-01-14"; // Replace with your birthdate (YYYY-MM-DD)
   const age = calculateExactAge(birthDate);
-  document.getElementById("age").textContent = ` Ido Roth (${age})`;
+  // document.getElementById("age").textContent = ` Ido Roth (${age})`;
 }
 
 showExactAge();

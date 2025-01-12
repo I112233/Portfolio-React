@@ -1,4 +1,4 @@
-// Portfolio Page Component
+import './Portfolio.css';
 const Portfolio = () => {
     return (
         <main><article className="portfolio active" data-page="portfolio" id="PortfolioPage">
@@ -19,7 +19,7 @@ const Portfolio = () => {
                     </button>
                 </div> */}
 
-                <h3 className="h3 form-title">Games</h3>
+                <h3 style={{ marginTop: "20px" }} className="h3 form-title">Games</h3>
 
                 <ul className="project-list">
                     <li

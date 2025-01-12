@@ -12,7 +12,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 // Main App Component
 const App = () => {
-  const [activePage, setActivePage] = useState('about');
+  const [activePage, setActivePage] = useState('contact');
 
   const handleNavigation = (page) => {
     setActivePage(page);
